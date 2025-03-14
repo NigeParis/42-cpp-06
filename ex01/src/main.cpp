@@ -6,7 +6,7 @@
 /*   By: nige42 <nige42@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/20 10:06:58 by nrobinso          #+#    #+#             */
-/*   Updated: 2025/03/14 12:21:39 by nige42           ###   ########.fr       */
+/*   Updated: 2025/03/14 12:24:43 by nige42           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,7 +35,7 @@ int main() {
 
     // Deserialize pointer: Convert the integer back to a pointer
     data* deserializedPtr = reinterpret_cast<data*>(raw);
-    std::cout << "Deserialized value: " << deserializedPtr->a << std::endl;
-    std::cout << "Deserialized value: " << deserializedPtr->b << std::endl;
+    std::cout << "Deserialized value->a: " << deserializedPtr->a << std::endl;
+    std::cout << "Deserialized value->b: " << deserializedPtr->b << std::endl;
     return 0;
 }

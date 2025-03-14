@@ -31,7 +31,10 @@ int main() {
 }
 ```
 ##output
-```c
-Serialized pointer (as integer): 140701943735160
-Deserialized value: 42
+```bash
+➜  ex01 git:(main) ✗ ./serialization
+Serialized pointer (as integer): 140701832926068
+Deserialized value->a: 42
+Deserialized value->b: 21
+➜  ex01 git:(main) ✗ 
 ```
