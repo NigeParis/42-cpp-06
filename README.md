@@ -28,7 +28,7 @@ int main() {
     return 0;
 }
 ```
-## output
+### output
 ```bash
 ➜  ex01 git:(main) ✗ ./serialization
 Serialized pointer (as integer): 140701832926068
