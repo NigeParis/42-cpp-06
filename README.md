@@ -12,6 +12,13 @@ C++98 Cast Types provides four types of explicit cast operators to handle conver
 - *Checks at runtime whether the cast is valid, and returns nullptr for invalid casts when dealing with pointers.* </br>
 - *Example: Casting a base class pointer to a derived class pointer.* </br>
 - *Syntax: dynamic_cast<type>(expression).* </br>
+
+### const_cast:
+- *Used to add or remove the const or volatile qualifier from a variable.* </br>
+- *Example: Removing const from a pointer to call a function that doesn’t take a const parameter.* </br>
+- *Syntax: const_cast<type>(expression).* </br>
+
+
 ## Exercise 01: Serialization
 ```c
 #include <iostream>
