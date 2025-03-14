@@ -5,7 +5,7 @@
 
 typedef struct Data {
     int a;
-    int b;
+    std::string b;
 } data;
 
 
@@ -15,7 +15,7 @@ int main() {
     data value;
 
     value.a = 42;
-    value.b = 21;
+    value.b = "Nigel";
     
     data* ptr = &value; // Pointer to data
 
@@ -35,6 +35,6 @@ int main() {
 ➜  ex01 git:(main) ✗ ./serialization
 Serialized pointer (as integer): 140701832926068
 Deserialized value->a: 42
-Deserialized value->b: 21
+Deserialized value->b: Nigel
 ➜  ex01 git:(main) ✗ 
 ```

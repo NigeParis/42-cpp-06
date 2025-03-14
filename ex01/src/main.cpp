@@ -6,26 +6,18 @@
 /*   By: nige42 <nige42@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/20 10:06:58 by nrobinso          #+#    #+#             */
-/*   Updated: 2025/03/14 12:24:43 by nige42           ###   ########.fr       */
+/*   Updated: 2025/03/14 12:31:55 by nige42           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <iostream>
-#include <stdint.h> // For uintptr_t
-
-typedef struct Data {
-    int a;
-    int b;
-} data;
-
-
+#include "./include/Data.hpp"
 
 int main() {
     
     data value;
 
     value.a = 42;
-    value.b = 21;
+    value.b = "Nigel";
     
     data* ptr = &value; // Pointer to an integer
 
