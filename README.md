@@ -8,8 +8,6 @@ typedef struct Data {
     std::string b;
 } data;
 
-
-
 int main() {
     
     data value;
