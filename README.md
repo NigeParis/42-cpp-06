@@ -4,7 +4,7 @@
 
 C++98 provides four types of explicit cast operators to handle conversions more safely and explicitly than C-style casting. Here’s a breakdown:
 
-static_cast: </br>
+### static_cast: </br>
 -> Used for conversions between compatible types.</br>
 -> Example: Converting from one numeric type to another (e.g., int to float), or safely </br>
 downcasting from a base class to a derived class (when it's known to be safe at compile time).</br>
