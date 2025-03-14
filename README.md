@@ -1,6 +1,8 @@
 ## Exercise 00: Conversion of scalar types
 
-C++98 Cast Types provides four types of explicit cast operators to handle conversions more safely and explicitly than C-style casting. Here’s a breakdown:
+C++98 Cast Types provides four types of explicit cast operators to handle conversions more safely and explicitly than C-style casting. Here’s a breakdown:</br>
+- Note : For each exercise, type conversion must be handled using a specific type of casting.
+- Your choice will be reviewed during the correction.
 
 ### static_cast: </br>
 - *Used for conversions between compatible types.*</br>
