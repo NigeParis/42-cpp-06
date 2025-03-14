@@ -3,18 +3,30 @@
 #include <iostream>
 #include <stdint.h> // For uintptr_t
 
+typedef struct Data {
+    int a;
+    int b;
+} data;
+
+
+
 int main() {
-    int value = 42;
-    int* ptr = &value; // Pointer to an integer
+    
+    data value;
+
+    value.a = 42;
+    value.b = 21;
+    
+    data* ptr = &value; // Pointer to data
 
     // Serialize pointer: Convert the pointer to an integer
     uintptr_t raw = reinterpret_cast<uintptr_t>(ptr);
     std::cout << "Serialized pointer (as integer): " << raw << std::endl;
 
     // Deserialize pointer: Convert the integer back to a pointer
-    int* deserializedPtr = reinterpret_cast<int*>(raw);
-    std::cout << "Deserialized value: " << *deserializedPtr << std::endl;
-
+    data* deserializedPtr = reinterpret_cast<data*>(raw);
+    std::cout << "Deserialized value: " << deserializedPtr->a << std::endl;
+    std::cout << "Deserialized value: " << deserializedPtr->b << std::endl;
     return 0;
 }
 ```
