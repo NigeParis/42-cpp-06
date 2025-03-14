@@ -29,7 +29,7 @@ int main() {
 }
 ```
 ### output
-```json
+```ruby
 ➜  ex01 git:(main) ✗ ./serialization
 Serialized pointer (as integer): 140701832926068
 Deserialized value->a: 42
