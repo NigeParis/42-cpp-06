@@ -18,3 +18,8 @@ int main() {
     return 0;
 }
 ```
+##output
+```c
+Serialized pointer (as integer): 140701943735160
+Deserialized value: 42
+```
