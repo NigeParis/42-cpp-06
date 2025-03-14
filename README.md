@@ -7,7 +7,11 @@ C++98 Cast Types provides four types of explicit cast operators to handle conver
 - *Example: Converting from one numeric type to another (e.g., int to float), or safely downcasting from a base class to a derived class (when it's known to be safe at compile time).*</br>
 - *Syntax: static_cast<type>(expression).*</br>
 
-
+### dynamic_cast: </br>
+- *Used for safe casting of polymorphic types (i.e., objects with virtual functions).*</br>
+- *Checks at runtime whether the cast is valid, and returns nullptr for invalid casts when dealing with pointers.* </br>
+- *Example: Casting a base class pointer to a derived class pointer.* </br>
+- *Syntax: dynamic_cast<type>(expression).* </br>
 ## Exercise 01: Serialization
 ```c
 #include <iostream>
