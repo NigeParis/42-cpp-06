@@ -18,6 +18,12 @@ C++98 Cast Types provides four types of explicit cast operators to handle conver
 - *Example: Removing const from a pointer to call a function that doesn’t take a const parameter.* </br>
 - *Syntax: const_cast<type>(expression).* </br>
 
+### reinterpret_cast:
+- *Used for low-level, unsafe type conversions.* </br>
+- *Allows conversion between unrelated types (e.g., converting a pointer to an integer or vice versa).* </br>
+- *Should be used with caution, as it may break type safety.* </br>
+- *Syntax: reinterpret_cast<type>(expression).* </br>
+
 
 ## Exercise 01: Serialization
 ```c
