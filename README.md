@@ -1,7 +1,7 @@
 # 42-cpp-06
 ```c
 #include <iostream>
-#include <stdint.h> // For uintptr_t
+#include <cstdint> // For uintptr_t
 
 typedef struct Data {
     int a;
