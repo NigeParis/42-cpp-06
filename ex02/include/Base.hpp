@@ -1,43 +1,26 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.cpp                                           :+:      :+:    :+:   */
+/*   Base.hpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: nrobinso <nrobinso@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/12/20 10:06:58 by nrobinso          #+#    #+#             */
-/*   Updated: 2025/03/19 11:27:09 by nrobinso         ###   ########.fr       */
+/*   Created: 2025/03/19 09:07:45 by nrobinso          #+#    #+#             */
+/*   Updated: 2025/03/19 09:49:57 by nrobinso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <cstdlib>
-#include <ctime>
-
-#include "./include/A.hpp"
-#include "./include/B.hpp"
-#include "./include/C.hpp"
+#pragma once
+#include <iostream>
 
 
-Base * generate(void) {
+class Base {
 
-    Base *basePtr;
+    public:
 
-    basePtr = new Base;
-
-
-
-    
-
-    return (basePtr);
+        virtual ~Base(void);
 };
 
 
-int main() {
-    
-    
 
 
-    
-    
-    return (0);
-}
