@@ -6,7 +6,7 @@
 /*   By: nige42 <nige42@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/17 12:00:38 by nige42            #+#    #+#             */
-/*   Updated: 2025/03/25 09:07:13 by nige42           ###   ########.fr       */
+/*   Updated: 2025/03/25 10:03:29 by nige42           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,11 +31,11 @@ Serializer::~Serializer(void) {
 
 uintptr_t Serializer::serialize(Data* ptr) {
 
-    uintptr_t raw = reinterpret_cast<uintptr_t>(ptr);
+    unsigned long raw = reinterpret_cast<unsigned long>(ptr);
     return (raw);
 };
 
-Data* Serializer::deserialize(uintptr_t raw) {
+Data* Serializer::deserialize(unsigned long raw) {
 
     data* deserializedPtr = reinterpret_cast<data*>(raw);
     return (deserializedPtr);
