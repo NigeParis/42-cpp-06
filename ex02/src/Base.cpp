@@ -3,16 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   Base.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: nrobinso <nrobinso@student.42.fr>          +#+  +:+       +#+        */
+/*   By: nige42 <nige42@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/19 09:11:17 by nrobinso          #+#    #+#             */
-/*   Updated: 2025/03/19 09:44:08 by nrobinso         ###   ########.fr       */
+/*   Updated: 2025/03/25 09:05:56 by nige42           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "./include/Base.hpp"
 
 Base::~Base(void) {
-
-    
+    std::cout << "destroy base" << std::endl;
 };

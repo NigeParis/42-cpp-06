@@ -3,24 +3,17 @@
 /*                                                        :::      ::::::::   */
 /*   Base.hpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: nrobinso <nrobinso@student.42.fr>          +#+  +:+       +#+        */
+/*   By: nige42 <nige42@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/19 09:07:45 by nrobinso          #+#    #+#             */
-/*   Updated: 2025/03/19 09:49:57 by nrobinso         ###   ########.fr       */
+/*   Updated: 2025/03/25 09:06:17 by nige42           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #pragma once
 #include <iostream>
 
-
 class Base {
-
     public:
-
         virtual ~Base(void);
 };
-
-
-
-
