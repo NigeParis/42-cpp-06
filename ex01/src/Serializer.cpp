@@ -6,7 +6,7 @@
 /*   By: nige42 <nige42@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/17 12:00:38 by nige42            #+#    #+#             */
-/*   Updated: 2025/03/25 10:03:29 by nige42           ###   ########.fr       */
+/*   Updated: 2025/03/25 10:06:46 by nige42           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,7 @@ Serializer::~Serializer(void) {
     //std::cout << "default destructor" << std::endl; 
 };
 
-uintptr_t Serializer::serialize(Data* ptr) {
+unsigned long Serializer::serialize(Data* ptr) {
 
     unsigned long raw = reinterpret_cast<unsigned long>(ptr);
     return (raw);

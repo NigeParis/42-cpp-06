@@ -30,7 +30,6 @@ C++98 Cast Types provides four types of explicit cast operators to handle conver
 ## Exercise 01: Serialization
 ```c
 #include <iostream>
-#include <cstdint> // For uintptr_t
 
 typedef struct Data {
     int a;
@@ -47,7 +46,7 @@ int main() {
     data* ptr = &value; // Pointer to data
 
     // Serialize pointer: Convert the pointer to an integer
-    uintptr_t raw = reinterpret_cast<uintptr_t>(ptr);
+    unsigned long raw = reinterpret_cast<unsigned long>(ptr);
     std::cout << "Serialized pointer (as integer): " << raw << std::endl;
 
     // Deserialize pointer: Convert the integer back to a pointer
