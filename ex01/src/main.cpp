@@ -6,7 +6,7 @@
 /*   By: nige42 <nige42@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/20 10:06:58 by nrobinso          #+#    #+#             */
-/*   Updated: 2025/03/17 13:19:07 by nige42           ###   ########.fr       */
+/*   Updated: 2025/03/25 09:15:56 by nige42           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 int main() {
     
     data value;
-    uintptr_t dataAdress = 0;
+    unsigned long dataAdress = 0;
     data* ptr = NULL;
     data* deserializedPtr = NULL;
     

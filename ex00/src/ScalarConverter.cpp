@@ -6,7 +6,7 @@
 /*   By: nige42 <nige42@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/11 10:20:18 by nrobinso          #+#    #+#             */
-/*   Updated: 2025/03/17 13:32:04 by nige42           ###   ########.fr       */
+/*   Updated: 2025/03/25 09:19:31 by nige42           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -181,7 +181,6 @@ static bool chkIsDouble(const std::string& str) {
     return (true);
 };
 
-
 static bool isPrintable(const char c) {
     
     if (c >= 32 && c < 127)
@@ -196,7 +195,6 @@ static bool isRangeAscii(const int nbr) {
     return(false);
 }
  
-
 static bool checkStrFormat(const std::string &str) {
 
     int flagDot = 0;
@@ -223,7 +221,6 @@ static bool checkStrFormat(const std::string &str) {
         return(false);
     return(true);
 };
-
 
 static double strtol(const std::string& str) {
 
@@ -278,7 +275,6 @@ ScalarConverter::ScalarConverter(const std::string str) {
 ScalarConverter::~ScalarConverter(void) {
     // std::cout << "ScalarConverter destructor called" << std::endl;
 };
-
 
 static void strToFloat(const std::string& str) {
 
@@ -460,7 +456,6 @@ static bool isChar(const std::string &str) {
     }
     return(false);
 };
-
 
 static bool isInt(const std::string &str) {
 
