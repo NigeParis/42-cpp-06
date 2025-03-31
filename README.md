@@ -70,6 +70,13 @@ Deserialized value->b: Nigel
 
 Polymorphism: Implementing a system where objects of different derived classes can be treated uniformly via a base class.<\br>
 
+using: <\br> 
+
+```
+cpp dynamic_cast<C&>();
+
+```
+
 ```cpp
 
               ->  object -> citroen
