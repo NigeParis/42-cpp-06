@@ -70,10 +70,10 @@ Deserialized value->b: Nigel
 
 Polymorphism: Implementing a system where objects of different derived classes can be treated uniformly via a base class.<\br>
 
-```bash
+```js
 
-              ->  citroen
-class -> car  ->  object Volvo
-              ->  jaguar
+              ->  object -> citroen
+class -> car  ->  object -> Volvo
+              ->  object -> jaguar
  ```
 
