@@ -72,9 +72,8 @@ Polymorphism: Implementing a system where objects of different derived classes c
 
 using: <\br> 
 
-```
+```cpp
 cpp dynamic_cast<C&>();
-
 ```
 
 ```cpp
