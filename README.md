@@ -87,8 +87,11 @@ dynamic_cast in C++ is a casting operator used to safely
 convert pointers or references between classes in an inheritance hierarchy. It is particularly useful for performing downcasting, which is the process of converting a base class pointer or reference to a derived class pointer or reference. The key feature of dynamic_cast is that it performs runtime type checking, ensuring the validity of the cast. <\br>
 Key Points about dynamic_cast:<\br>
 
-    Type-Safe Cast: It checks at runtime whether the cast is possible, and if it's invalid, it either returns nullptr (for pointers) or throws a std::bad_cast exception (for references).<\br>
+ -Type-Safe Cast: It checks at runtime whether the cast is possible, 
+  and if it's invalid, it either returns nullptr (for pointers) or throws a std::bad_cast exception (for references).<\br>
 
-    Usage Scope: It works only with polymorphic types, i.e., classes that have at least one virtual function.<\br>
+ - Usage Scope: It works only with polymorphic types, i.e., classes that
+   have at least one virtual function.<\br>
 
-    Performance: Since it performs runtime type checking, it has a slight performance overhead.<\br>
+ - Performance: Since it performs runtime type checking, 
+   it has a slight performance overhead.<\br>
