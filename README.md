@@ -64,3 +64,17 @@ Deserialized value->a: 42
 Deserialized value->b: Nigel
 ➜  ex01 git:(main)
 ```
+
+
+## Exercise 02: Polymorphism
+
+Polymorphism: Implementing a system where objects of different derived classes can be treated uniformly via a base class.<\br>
+
+```c
+
+              ->  citroen
+class -> car  ->  object Volvo
+              ->  jaguar
+ ```
+
+ 
